@@ -1,0 +1,16 @@
+spring:
+  application:
+  name: kor-address-mcp-sse-demo
+
+  ai:
+    mcp:
+      server:
+        name: kor-address-mcp-sse-server
+        version: 1.0.0
+        type: SYNC
+        sse-endpoint: /sse
+
+juso:
+  api:
+    # TODO - API key for Juso
+    key: {JUSO_API_KEY}
